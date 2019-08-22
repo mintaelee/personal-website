@@ -1,11 +1,11 @@
 var plugins = [{
-      plugin: require('/Users/mintaelee/Documents/code-immersives/term2/projects/resume-website/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/mintaelee/Documents/code-immersives/term2/projects/personal-website/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/mintaelee/Documents/code-immersives/term2/projects/resume-website/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      plugin: require('/Users/mintaelee/Documents/code-immersives/term2/projects/personal-website/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/mintaelee/Documents/code-immersives/term2/projects/resume-website/node_modules/gatsby-plugin-offline/gatsby-ssr'),
+      plugin: require('/Users/mintaelee/Documents/code-immersives/term2/projects/personal-website/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
