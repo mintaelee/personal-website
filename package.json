@@ -1,6 +1,5 @@
 {
-  "name": "Mintae's Personal Website",
-  "description": "Mintae's Personal Website using Gatsby Starter - Dimension V2",
+  "name": "personal-website",
   "version": "1.0.0",
   "author": "Mintae Lee",
   "dependencies": {
@@ -15,16 +14,16 @@
     "react-dom": "^16.8.5",
     "react-helmet": "^5.2.0"
   },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
   "devDependencies": {
     "prettier": "^1.14.2"
   }
