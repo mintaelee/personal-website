@@ -13,7 +13,11 @@
 		@include vendor('align-items', 'center');
 		@include vendor('justify-content', 'center');
 		@include vendor('flex-direction', 'column');
-		position: relative;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		margin: 5% auto!important;
 		max-width: 100%;
 		z-index: 3;
 		display: none;

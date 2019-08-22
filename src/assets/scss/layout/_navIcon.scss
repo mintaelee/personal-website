@@ -75,6 +75,13 @@
         }
     }
 
+    @include breakpoint(small) {
+        button{
+            min-width: 4rem!important;
+            font-size: 0.6rem!important;
+            padding: 0 (1rem + _font(letter-spacing)) 0 (1rem + _font(letter-spacing))!important;
+        }
+    }
     @include breakpoint(xsmall) {
         button{
             min-width: 4rem!important;

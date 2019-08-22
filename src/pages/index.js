@@ -179,6 +179,7 @@ class IndexPage extends React.Component {
               home={this.home}
               isContentVisible={this.state.isContentVisible}
               content={this.state.content}
+              onOpenArticle={this.handleOpenArticle} 
             />
             <Main
               isArticleVisible={this.state.isArticleVisible}

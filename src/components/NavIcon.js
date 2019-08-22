@@ -11,6 +11,7 @@ export default class NavIcon extends Component {
                     <li><button className='button' onClick={() => {this.props.handleScrollToProfile()}}>Profile</button></li>
                     <li><button className='button' onClick={() => {this.props.handleScrollToExperience()}}>Experience</button></li>
                     <li><button className='button' onClick={() => {this.props.handleScrollToProjects()}}>Projects</button></li>
+                    <li><button className='button' onClick={() => {this.props.handleScrollToContact()}}>Contact</button></li>
                 </ul>
             </div>
         )
