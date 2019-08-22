@@ -4,6 +4,7 @@
   "author": "Mintae Lee",
   "dependencies": {
     "gatsby": "^2.13.75",
+    "gatsby-cli": "^2.7.36",
     "gatsby-plugin-manifest": "^2.0.24",
     "gatsby-plugin-offline": "^2.0.25",
     "gatsby-plugin-react-helmet": "^3.0.10",
