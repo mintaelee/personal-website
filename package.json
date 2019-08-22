@@ -13,7 +13,8 @@
     "react": "^16.8.5",
     "react-burger-menu": "^2.6.11",
     "react-dom": "^16.8.5",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "webpack": "^4.39.2"
   },
   "scripts": {
     "build": "gatsby build",
